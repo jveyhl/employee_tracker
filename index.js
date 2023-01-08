@@ -5,7 +5,7 @@ require("console.table");
 init();
 
 function init() {
-  // Title ASCII all '\' need to be escaped -> '\\'
+  // Startup ASCII title all '\' need to be escaped -> '\\'
   console.log(` 
   ________  _________ _     _______   _______ _____ 
   |  ___|  \\/  || ___ \\ |   |  _  \\ \\ / /  ___|  ___|
@@ -215,7 +215,7 @@ function createEmployee() {
               value: id,
             })
           );
-
+          // unshift() will add "None" to the start of the managerChoices array similar to how push() would add it to the end of the array.
           managerChoices.unshift({ name: "None", value: null });
 
           prompt({

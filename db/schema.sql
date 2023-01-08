@@ -15,7 +15,7 @@ CREATE TABLE role (
   salary DECIMAL UNSIGNED NOT NULL,
   department_id INT UNSIGNED NOT NULL,
   INDEX dep_ind (department_id),
-  /*ON DELETE CASCADE to if parent rows are deleted also delete the corresponding child rows*/
+  /*ON DELETE CASCADE: when parent rows are deleted this will also delete the corresponding child rows*/
   CONSTRAINT fk_department FOREIGN KEY (department_id) REFERENCES department(id) ON DELETE CASCADE
 );
 
