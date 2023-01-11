@@ -4,6 +4,8 @@
 
 A commmand-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL2. The appllication allows users to perform the following actions on an employee database: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role.
 
+### Walkthrough video: https://drive.google.com/file/d/1DSbifNL1lS_n4HUFY1lW7zbOSNopEgoT/view?usp=sharing
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -22,6 +24,8 @@ Ensure that you have Node.js and npm installed.
 The following image shows the application's appearance and functionality:
 
 ![Alt text](/images/1.png)
+![Alt text](/images/2.png)
+![Alt text](/images/3.png)
 
 ## Deployed Application
 
